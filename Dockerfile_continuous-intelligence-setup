@@ -7,7 +7,7 @@ RUN apt-get update \
   && pip3 install --no-cache-dir --upgrade pip
 
 RUN mkdir -p /app/continuous-intelligence \
-  && git clone https://github.com/ThoughtWorksInc/continuous-intelligence-workshop.git /app/continuous-intelligence \
+  && git clone https://github.com/eyal-lantzman/continuous-intelligence-workshop.git /app/continuous-intelligence \
   && mkdir /app/continuous-intelligence/data \
   && cd /app/continuous-intelligence \
   && pip3 install --no-cache-dir -r requirements.txt
