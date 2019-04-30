@@ -14,7 +14,7 @@ participant is assigned a numeric ID (from 1 to 50), which will be used
 throughout the workshop.
 
 1. Go to GoCD at http://gocd.cd4ml.net and login with the username and password
-provided.
+provided. (user5:user5)
 
 2. Click on the little gear symbol (![gear](./images/gear.png)) next to
 `ci-workshop-app-X` to edit your deployment pipeline configuration.
