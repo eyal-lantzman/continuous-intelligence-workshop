@@ -12,7 +12,7 @@ ML model
 ## Step by Step instructions
 
 1. Configure DVC to use your GCP bucket for remote storage **(replace `X` with
-  your user ID)**:
+  your user ID i.e. user5)**:
 ```bash
 dvc remote modify default url gs://cd4ml-bucket-X
 ```
